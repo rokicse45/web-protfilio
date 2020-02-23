@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    margin-left: 5%;
+}
+p{
+    color:dimgray;
+}
+.headname{
+    color: chocolate;
+}
+.half-side{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;;
+}
+.half-side img{
+    width: 100%;
+}
+.top-part{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    
+}
+.hire-button{
+    text-decoration: none;
+    background-color:peru;
+    background-image: linear-gradient(red, green);
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.middle-part{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.one-experience{
+    box-shadow:10px 10px 45px forestgreen;
+    border-radius: 10px;
+    background-color: honeydew;
+}
+.Expart{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#font-end{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, lightSalmon, gold);
+    border-image-slice: 1;
+}
+#sec-end{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+.foot{
+    text-align: center;
+}
